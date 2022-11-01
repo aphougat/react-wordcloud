@@ -13,6 +13,9 @@
     "visualization",
     "d3"
   ],
+  "publishConfig": {
+    "@aphougat:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "microbundle --jsx React.createElement",
     "build:docs": "docz build",
